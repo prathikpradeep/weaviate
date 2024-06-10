@@ -1,6 +1,6 @@
-# Pharmaceutical FAQ Generation Search
+# Pharmaceutical FAQ Generative Question Answering
 
-This project is a Pharmaceutical FAQ Generation Search application that leverages Weaviate for semantic search and OpenAI for generating responses. The application allows users to enter a query to search for pharmaceutical FAQs, utilizing both keyword and vector search based on user-defined specificity.
+This project is a Pharmaceutical FAQ Generative Question Answering that leverages Weaviate for semantic search and OpenAI for generating responses. The application allows users to enter a query to search for pharmaceutical FAQs, utilizing both keyword and vector search based on user-defined specificity.
 
 ## Features
 
