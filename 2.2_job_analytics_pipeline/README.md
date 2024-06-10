@@ -59,8 +59,9 @@ docker-compose up -d
 - Define functions for installing required packages and initializing Spark and Weaviate clients.
 
 ### Step 2: Data Loading
+- Download the data from `https://www.kaggle.com/datasets/arshkon/linkedin-job-postings`.
 - Load job postings data into a Spark DataFrame.
-- Replace `path_to_your_json_file.json` with the actual path to your dataset.
+- Replace `path_to_your_csv_file.csv` with the actual path to your dataset.
 
 ### Step 3: Data Preprocessing
 - Filter job postings related to ML/AI using relevant keywords.
