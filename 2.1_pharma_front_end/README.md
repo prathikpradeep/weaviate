@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pharmaceutical FAQ Generation Search
 
-## Getting Started
+This project is a Pharmaceutical FAQ Generation Search application that leverages Weaviate for semantic search and OpenAI for generating responses. The application allows users to enter a query to search for pharmaceutical FAQs, utilizing both keyword and vector search based on user-defined specificity.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Semantic search using Weaviate
+- Integration with OpenAI for generating responses
+- Dynamic search specificity using a range slider
+- Example queries for quick search
+- Responsive and visually appealing UI
+
+## Setup and Installation
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js
+- npm (Node package manager)
+
+### Environment Variables
+
+Create a `.env.local` file in the root directory of your project and add the following environment variables:
+
+- WEAVIATE_HOST=https://your-weaviate-instance
+- WEAVIATE_API_KEY=your-weaviate-api-key
+- OPENAI_API_KEY=your-openai-api-key
+
+
+### Installation
+
+1. Clone the repository:
+```sh
+git clone https://github.com/prathikpradeep/pharma_front_end.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
+```sh
+cd pharma_front_end
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Install the dependencies:
+```sh
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### Running the Application
 
-To learn more about Next.js, take a look at the following resources:
+To start the development server, run:
+```sh
+npm run dev
+```
+The application will be available at `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The project consists of the following main components:
 
-## Deploy on Vercel
+- **lib/weaviate.ts**: This file configures and initializes the Weaviate client.
+- **app/api/search.ts**: This API route handles search queries and interacts with Weaviate.
+- **app/page.tsx**: The main page component that includes the UI and logic for searching and displaying results.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Start the development server:
+
+```sh
+npm run dev
+```
+
+2. Open your browser and navigate to `http://localhost:3000`.
+
+3. Enter your search query in the input field and use the slider to adjust the search specificity.
+
+4. Click the "Search" button to see the results.
+
+5. You can also click on the example queries to quickly see results for predefined queries.
+
+## Contributing
+
+Feel free to fork this project and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
