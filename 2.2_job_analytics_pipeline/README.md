@@ -16,7 +16,7 @@ This project aims to build an analytics pipeline that identifies and clusters jo
   - [Step 6: Analysis and Visualization](#step-6-analysis-and-visualization)
   - [Step 7: Save Results](#step-7-save-results)
 - [Usage](#usage)
-- [License](#license)
+- [Example Usage](#example-usage)
 
 ## Environment Setup
 
