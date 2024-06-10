@@ -32,7 +32,7 @@ Ensure you have the following installed on your system:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/LinkedIn-ML-AI-job-pipeline.git
+   git clone https://github.com/prathikpradeep/LinkedIn-ML-AI-job-pipeline.git
    cd LinkedIn-ML-AI-job-pipeline
    ```
 
