@@ -27,7 +27,7 @@ Ensure you have the following installed on your system:
 
 Clone the repository:
 ```sh
-git clone https://github.com/yourusername/weaviate-workflow.git
+git clone https://github.com/prathikpradeep/weaviate-workflow.git
 cd weaviate-workflow
 ```
 
