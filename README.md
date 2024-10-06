@@ -50,4 +50,4 @@ This project builds an analytics pipeline that identifies and clusters job openi
 - Clustering of job postings
 - Analysis and visualization of clustered data
 
-For more information, refer to the [LinkedIn ML/AI Job Analytics Pipeline](./LinkedIn-ML-AI-job-pipeline/README.md) project directory.
+For more information, refer to the [LinkedIn ML/AI Job Analytics Pipeline](./job_analytics_pipeline/README.md) project directory.
