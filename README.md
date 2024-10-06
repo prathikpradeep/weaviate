@@ -23,8 +23,6 @@ This project demonstrates a workflow for integrating Weaviate with OpenAI embedd
 - Uploading data to Weaviate
 - Querying the dataset for relevant FAQs
 
-For detailed instructions, refer to the [Weaviate Workflow](./weaviate-workflow/README.md) project directory.
-
 ### Front-End for Pharmaceutical FAQ Generative Question Answering
 
 This project provides a front-end application for Pharmaceutical FAQ Generative Question Answering. It leverages Weaviate for semantic search and OpenAI for generating responses, allowing users to search for pharmaceutical FAQs using both keyword and vector search based on user-defined specificity.
