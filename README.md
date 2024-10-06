@@ -37,7 +37,7 @@ This project provides a front-end application for Pharmaceutical FAQ Generative 
 - Example queries for quick search
 - Responsive and visually appealing UI
 
-For setup and usage instructions, refer to the [Front-End for Pharmaceutical FAQ](./pharma_front_end/README.md) project directory.
+For setup and usage instructions, refer to the [Front-End for Pharmaceutical FAQ](./2.1_pharma_front_end/README.md) project directory.
 
 ### LinkedIn ML/AI Job Analytics Pipeline
 
@@ -50,4 +50,4 @@ This project builds an analytics pipeline that identifies and clusters job openi
 - Clustering of job postings
 - Analysis and visualization of clustered data
 
-For more information, refer to the [LinkedIn ML/AI Job Analytics Pipeline](./job_analytics_pipeline/README.md) project directory.
+For more information, refer to the [LinkedIn ML/AI Job Analytics Pipeline](./2.2_job_analytics_pipeline/README.md) project directory.
